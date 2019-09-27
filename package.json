@@ -1,6 +1,7 @@
 {
   "name": "@alongvili/universaldashboard.materialcarousel",
   "version": "1.0.0",
+  "repository":"git://github.com/AlonGvili/UniversalDashboard.MaterialUICarousel.git",
   "description": "MaterialUI AutoRotating Carousel For Universal Dashboard Module",
   "main": "index.js",
   "scripts": {
