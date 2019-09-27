@@ -27,10 +27,10 @@
     # CompanyName = ''
     
     # Copyright statement for this module
-    Copyright = '(c) 2018 Alon Gvili. All rights reserved.'
+    Copyright = '(c) 2019 Alon Gvili. All rights reserved.'
     
     # Description of the functionality provided by this module
-    Description = 'Display Markdown In Universal Dashboard Pages'
+    Description = 'Universal dashboard Custom getting started curousel'
     
     # Minimum version of the Windows PowerShell engine required by this module
     # PowerShellVersion = ''
