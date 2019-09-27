@@ -26,5 +26,5 @@
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.8"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/AlonGvili" }
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
