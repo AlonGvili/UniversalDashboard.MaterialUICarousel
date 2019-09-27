@@ -1,5 +1,5 @@
 {
-  "name": "universaldashboard.materialcarousel",
+  "name": "@alongvili/universaldashboard.materialcarousel",
   "version": "1.0.0",
   "description": "MaterialUI AutoRotating Carousel For Universal Dashboard Module",
   "main": "index.js",
