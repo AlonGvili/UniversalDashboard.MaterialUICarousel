@@ -42,8 +42,6 @@ Copy-Item $PSFolder\UniversalDashboard.MaterialUICarousel.psd1 $OutputPath\Unive
 Remove-Item -Path "$PSFolder\index.*.bundle.js" -Force -ErrorAction SilentlyContinue
 Remove-Item -Path "$PSFolder\index.*.bundle.js.map" -Force -ErrorAction SilentlyContinue
 
-Import-Module $OutputPath\UniversalDashboard.MaterialUICarousel\UniversalDashboard.MaterialUICarousel.psd1
-New-MarkdownHelp -Module UniversalDashboard.MaterialUICarousel -OutputFolder $OutputPath\UniversalDashboard.MaterialUICarousel\Help -Force
-New-ExternalHelp -Path "$OutputPath\UniversalDashboard.MaterialUICarousel\Help" -OutputPath "$OutputPath\UniversalDashboard.MaterialUICarousel\Help\en-US\ UniversalDashboard.MaterialUICarousel-help.xml"
+
 
 
