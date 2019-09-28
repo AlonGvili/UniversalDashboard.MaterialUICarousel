@@ -33,6 +33,8 @@ steps:
   inputs:
     gitHubConnection: 'github alongvili'
     tagSource: userSpecifiedTag
-    tag: 'v.$(Build.BuildNumber)'
+    tag: 'v.1.0.$(Build.BuildId)'
+    isPreRelease: true
+    changeLogType: issueBased
     title: UniversalDashboard.MaterialUICarousel
 
