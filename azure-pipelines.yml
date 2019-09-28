@@ -27,3 +27,9 @@ steps:
   inputs:
     artifactName: 'UniversalDashboard.MaterialUICarousel'
     targetPath: $(Build.ArtifactStagingDirectory)
+
+- task: GitHubRelease@1
+  displayName: 'GitHub release (create)'
+  inputs:
+    gitHubConnection: 'github alongvili'
+    title: UniversalDashboard.MaterialUICarousel
