@@ -33,6 +33,6 @@ steps:
   inputs:
     gitHubConnection: 'github alongvili'
     tagSource: userSpecifiedTag
-    tag: v1.0
+    tag: '$(Build.BuildId)'
     title: UniversalDashboard.MaterialUICarousel
 
