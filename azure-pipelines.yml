@@ -32,5 +32,7 @@ steps:
   displayName: 'GitHub release (create)'
   inputs:
     gitHubConnection: 'github alongvili'
+    tagSource: userSpecifiedTag
+    tag: v1.0
     title: UniversalDashboard.MaterialUICarousel
-    tags: 'v1.0' 
+
