@@ -21,7 +21,7 @@ steps:
   inputs:
     rootFolderOrFile: '.\output' 
     includeRootFolder: false
-    archiveFile: '$(Build.ArtifactStagingDirectory)/UniversalDashboard.MaterialUICarousel' 
+    archiveFile: '$(Build.ArtifactStagingDirectory)/UniversalDashboard.MaterialUICarousel.zip' 
 
 - task: PublishPipelineArtifact@0
   inputs:
