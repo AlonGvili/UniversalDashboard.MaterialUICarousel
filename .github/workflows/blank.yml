@@ -31,16 +31,17 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-- name: Auto Merge Dependency Updates
-  # You may pin to the exact commit or the version.
-  # uses: tjenkinson/gh-action-auto-merge-dependency-updates@b5d04ce030c942cd7d0c111f55647d97abe637c2
-  uses: tjenkinson/gh-action-auto-merge-dependency-updates@v1
-  with:
-    # GitHub API token
-    repo-token: 
-    # Comma separated list of usernames auto merge is allowed for
-    allowed-actors: 
-    # Comma separated list of types of updates that are allowed. Supported: [devDependencies|dependencies]:[major|minor|patch]
-    allowed-update-types: # optional, default is devDependencies:minor, devDependencies:patch
-    # Comma separated list of packages that auto merge should not be allowed for
-    package-block-list: # optional
+          
+      - name: Auto Merge Dependency Updates
+        # You may pin to the exact commit or the version.
+        # uses: tjenkinson/gh-action-auto-merge-dependency-updates@b5d04ce030c942cd7d0c111f55647d97abe637c2
+        uses: tjenkinson/gh-action-auto-merge-dependency-updates@v1
+        with:
+          # GitHub API token
+          repo-token: 
+          # Comma separated list of usernames auto merge is allowed for
+          allowed-actors: 
+          # Comma separated list of types of updates that are allowed. Supported: [devDependencies|dependencies]:[major|minor|patch]
+          allowed-update-types: # optional, default is devDependencies:minor, devDependencies:patch
+          # Comma separated list of packages that auto merge should not be allowed for
+          package-block-list: # optional
